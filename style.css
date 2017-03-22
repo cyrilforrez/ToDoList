@@ -1,0 +1,21 @@
+body {text-align: center;}
+
+.inside {display: inline-block;
+          width: 300px;
+          height: 300px;
+          background-color: black;}
+article h3 {background-color: yellow;}
+
+header h1 {background-color: grey;}
+
+section h2 {background-color: green;}
+
+div {background-color: grey;}
+
+li {margin-top: 20px;}
+
+img {width: 150px;
+     height: 150px;}
+
+
+
