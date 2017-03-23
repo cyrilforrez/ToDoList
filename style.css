@@ -1,7 +1,7 @@
 body {text-align: center;}
 
 .inside {display: inline-block;
-          width: 300px;
+          width: 350px;
           height: 300px;
           background-color: #AE642D;}
 
@@ -13,12 +13,24 @@ section h2 {background-color: green;}
      height: 20px;
      width: 100px;}
 
-li {margin-top: 30px;}
+.indor {background-color: red;
+     height: 20px;
+     width: 100px;}
+
+li {margin-top: 30px;
+    width: 300px;
+    text-align: left;
+    text-decoration: line-through;}
+
+.inset {margin-top: 30px;
+    width: 300px;
+    text-align: left;
+     text-decoration: none;}    
 
 img {width: 150px;
      height: 150px;}
 
-.inline {width: 270px;
+.inline {width: 320px;
 	     height: 26px;
 	     background-color: yellow;
          padding-right: 30px;
