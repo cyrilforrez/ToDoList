@@ -1,13 +1,27 @@
-body {text-align: center;}
+body {text-align: center;
+      background-image:url(octofd.jpg);
+       background-size: 100% 100%;
+       background-repeat:no-repeat;
+       background-attachment:fixed;}
+
 
 .inside {display: inline-block;
           width: 350px;
           height: 300px;
-          background-color: #AE642D;}
+          background-color: #91283B;
+         border: 5px solid #0F056B;
+         border-radius: 10px;}
 
-header h1 {background-color: grey;}
+header h1 {background-color: #0F056B;
+          border: 5px solid #6600FF;
+          border-radius: 7px;
+          color: #0131B4;}
 
-section h2 {background-color: green;}
+.aze {background-color: #6600FF;
+      border:4px solid #0131B4;
+      border-radius: 20px;
+      color: #0F056B;
+      text-shadow: 2px 2px black;}
 
 .outdor {background-color: #34C924;
      height: 20px;
@@ -27,14 +41,18 @@ li {margin-top: 30px;
     text-align: left;
      text-decoration: none;}    
 
-img {width: 150px;
-     height: 150px;}
+img {width: 0px;
+     height: 0px;}
 
 .inline {width: 320px;
 	     height: 30px;
-	     background-color: yellow;
+	     background-color: #723E64;
          padding-right: 30px;
-         font-size: 15px;} 
+         font-size: 15px;
+         border-top: 2px solid #6600FF;
+          border-bottom: 2px solid #6600FF;
+          text-shadow: 2px 2px blue;} 
+         
 
 .outside {width: 30px;
           height: 30PX;
@@ -48,3 +66,5 @@ div {border: 2px solid red;
 
 .azert {height: 40px;
         width: 40px;}     
+
+a:hover {color: white;}        
