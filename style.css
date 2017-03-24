@@ -10,7 +10,8 @@ body {text-align: center;
           height: 300px;
           background-color: #91283B;
          border: 5px solid #0F056B;
-         border-radius: 10px;}
+         border-radius: 10px;
+         opacity: 0.9;}
 
 header h1 {background-color: #0F056B;
           border: 5px solid #6600FF;
