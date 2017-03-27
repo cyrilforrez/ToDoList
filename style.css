@@ -72,7 +72,7 @@ img {width: 0px;
 .outside {width: 30px;
           height: 30PX;
           float: left;
-           padding-top: 15px;
+           padding-top: 17px;
            padding-left: 30px;}
 
 div {border: 2px solid red;
@@ -84,3 +84,21 @@ div {border: 2px solid red;
         width: 40px;}     
 
 a:hover {color: white;}        
+
+        /*--- img cligno----*/
+.disp {height: 40px;
+       width: 40px;
+       float: left;
+       padding-left: 320px;
+       padding-top: 5px;}
+
+.dispe {height: 40px;
+        width: 40px;
+        float: right;
+        padding-right: 320px;
+        padding-top: 5px;}        
+
+.disp {animation:fading 7s infinite}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.dispe {animation:fading 7s infinite}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}        
